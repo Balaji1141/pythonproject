@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "91208eb5-2567-4664-bbc1-8c13eec4bef6",
+		"name": "CreditManagement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "listledger",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/listledgers?tenant_id=COMPANY-A",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"listledgers"
+					],
+					"query": [
+						{
+							"key": "tenant_id",
+							"value": "COMPANY-A"
+						},
+						{
+							"key": "distributor_id",
+							"value": "DT103",
+							"disabled": true
+						},
+						{
+							"key": "store_id",
+							"value": "ST103",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createledger",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"distributor_id\":\"DT103\",\n    \"store_id\":\"ST101\",\n    \"enabled\": true,\n    \"credit_rating\": 8,\n    \"credit_limit\": 12000,\n    \"credit_balance\": 0,\n    \"credit_outstanding\": 0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/createledger?tenant_id=COMPANY-A",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"createledger"
+					],
+					"query": [
+						{
+							"key": "tenant_id",
+							"value": "COMPANY-A"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transaction",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\":1,\n    \"transaction_amount\":1000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/transaction/credit",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"transaction",
+						"credit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editledger",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"credit_rating\": 9\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/editledger?ledger_id=1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"editledger"
+					],
+					"query": [
+						{
+							"key": "ledger_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
