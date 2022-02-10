@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a947f74-2536-4506-a4a9-da90bc9e505b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/.idea/CreditManagement.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/CreditManagement/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/CreditManagement/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/CreditManagement/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/CreditManagement/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/CreditManagement/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/migrations/0002_ledger_transactions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/migrations/0003_ledger_actions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/migrations/0004_ledger_action_types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/migrations/0005_auto_20220118_0907.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/migrations/0006_alter_ledger_actions_action_type_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/migrations/0007_auto_20220118_1441.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/migrations/0008_auto_20220119_0901.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/migrations/0009_rename_tanent_id_ledger_tenant_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/migrations/0010_distributor_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CreditManagement/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreditManagement/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreditManagement/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreditManagement/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreditManagement/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreditManagement/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreditManagement/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreditManagementProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreditManagementProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Postman_Collections/CreditManagement.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Postman_Collections/CreditManagement.postman_collection.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24mAlpgeFQ1v2SuXFwhjiE0cdaF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Creditmanagement" type="PythonConfigurationType" factoryName="Python">
+      <module name="CreditManagementProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a947f74-2536-4506-a4a9-da90bc9e505b" name="Changes" comment="" />
+      <created>1644225565005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644225565005</updated>
+    </task>
+    <servers />
+  </component>
+</project>
