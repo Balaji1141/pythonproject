@@ -17,7 +17,7 @@ class ListLedgers(APIView):
         if isValid(tenant_id):
             distributor_id = request.GET.get('distributor_id', None)
             store_id=request.GET.get('store_id', None)
-            if isValid(distributor_id) and not isValid(store_id):
+            if isValid(distributor_id) and isValid(store_id):
                 distributor_object = distributor.objects.get(distributor_id=distributor_id,tenant_id=tenant_id)
                 store_object=store.objects.filter(distributor_id=distributor_object,store_id=store_id)
                 serializer = StoreSerializer(store_object, many=True)
